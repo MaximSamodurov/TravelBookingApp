@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0E748F2B6CBF6300A8B9ED /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E748E2B6CBF6300A8B9ED /* LayoutHelper.swift */; };
+		6A0E74952B6CF7F700A8B9ED /* MainInfoObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E74942B6CF7F700A8B9ED /* MainInfoObjects.swift */; };
+		6A90CB5F2B6BBBEC004FA17A /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90CB5E2B6BBBEC004FA17A /* VerticalStackView.swift */; };
+		6A90CB612B6BBC35004FA17A /* UIImageViewDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90CB602B6BBC35004FA17A /* UIImageViewDownload.swift */; };
+		6A9501142B6F537200000CC2 /* MainDataAboutHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9501132B6F537200000CC2 /* MainDataAboutHotel.swift */; };
+		6A9501182B6F962200000CC2 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9501172B6F962200000CC2 /* ScrollViewController.swift */; };
+		6A95011A2B6FBF4A00000CC2 /* DetailedDataAboutHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9501192B6FBF4A00000CC2 /* DetailedDataAboutHotel.swift */; };
 		6AB4386F2B68E1CF00B188EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB4386E2B68E1CF00B188EB /* AppDelegate.swift */; };
 		6AB438712B68E1CF00B188EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB438702B68E1CF00B188EB /* SceneDelegate.swift */; };
-		6AB438732B68E1CF00B188EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB438722B68E1CF00B188EB /* ViewController.swift */; };
-		6AB438762B68E1CF00B188EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB438742B68E1CF00B188EB /* Main.storyboard */; };
+		6AB438732B68E1CF00B188EB /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB438722B68E1CF00B188EB /* HotelViewController.swift */; };
 		6AB438782B68E1D100B188EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB438772B68E1D100B188EB /* Assets.xcassets */; };
 		6AB4387B2B68E1D100B188EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB438792B68E1D100B188EB /* LaunchScreen.storyboard */; };
+		6AF4A5702B72373C00B9F4DE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4A56F2B72373C00B9F4DE /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A0E748E2B6CBF6300A8B9ED /* LayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
+		6A0E74942B6CF7F700A8B9ED /* MainInfoObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoObjects.swift; sourceTree = "<group>"; };
+		6A90CB5E2B6BBBEC004FA17A /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		6A90CB602B6BBC35004FA17A /* UIImageViewDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewDownload.swift; sourceTree = "<group>"; };
+		6A9501132B6F537200000CC2 /* MainDataAboutHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataAboutHotel.swift; sourceTree = "<group>"; };
+		6A9501172B6F962200000CC2 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		6A9501192B6FBF4A00000CC2 /* DetailedDataAboutHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedDataAboutHotel.swift; sourceTree = "<group>"; };
 		6AB4386B2B68E1CF00B188EB /* TravelBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB4386E2B68E1CF00B188EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB438702B68E1CF00B188EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6AB438722B68E1CF00B188EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6AB438752B68E1CF00B188EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AB438722B68E1CF00B188EB /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
 		6AB438772B68E1D100B188EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AB4387A2B68E1D100B188EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AB4387C2B68E1D100B188EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF4A56F2B72373C00B9F4DE /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0E74992B6CF9EB00A8B9ED /* HotelView */ = {
+			isa = PBXGroup;
+			children = (
+				6AB438722B68E1CF00B188EB /* HotelViewController.swift */,
+				6A0E74942B6CF7F700A8B9ED /* MainInfoObjects.swift */,
+				6A9501172B6F962200000CC2 /* ScrollViewController.swift */,
+				6A9501132B6F537200000CC2 /* MainDataAboutHotel.swift */,
+				6A9501192B6FBF4A00000CC2 /* DetailedDataAboutHotel.swift */,
+			);
+			path = HotelView;
+			sourceTree = "<group>";
+		};
 		6AB438622B68E1CF00B188EB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +82,82 @@
 		6AB4386D2B68E1CF00B188EB /* TravelBookingApp */ = {
 			isa = PBXGroup;
 			children = (
-				6AB4386E2B68E1CF00B188EB /* AppDelegate.swift */,
-				6AB438702B68E1CF00B188EB /* SceneDelegate.swift */,
-				6AB438722B68E1CF00B188EB /* ViewController.swift */,
-				6AB438742B68E1CF00B188EB /* Main.storyboard */,
-				6AB438772B68E1D100B188EB /* Assets.xcassets */,
-				6AB438792B68E1D100B188EB /* LaunchScreen.storyboard */,
-				6AB4387C2B68E1D100B188EB /* Info.plist */,
+				6AB438842B68E87000B188EB /* Model */,
+				6AB438832B68E86900B188EB /* View */,
+				6AB438852B68E87B00B188EB /* ViewModel */,
+				6AB9F3B72B6A66930082A3BB /* Network */,
+				6AB438822B68E85600B188EB /* Application */,
+				6AB9F3B92B6A66B70082A3BB /* Extensions */,
+				6AB9F3B82B6A66A90082A3BB /* Helpers */,
+				6AB438862B68E8A000B188EB /* Supporting Files */,
 			);
 			path = TravelBookingApp;
+			sourceTree = "<group>";
+		};
+		6AB438822B68E85600B188EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4386E2B68E1CF00B188EB /* AppDelegate.swift */,
+				6AB438702B68E1CF00B188EB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6AB438832B68E86900B188EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E74992B6CF9EB00A8B9ED /* HotelView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AB438842B68E87000B188EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AB438852B68E87B00B188EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6AB438862B68E8A000B188EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4387C2B68E1D100B188EB /* Info.plist */,
+				6AB438772B68E1D100B188EB /* Assets.xcassets */,
+				6AB438792B68E1D100B188EB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AB9F3B72B6A66930082A3BB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6AB9F3B82B6A66A90082A3BB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6A90CB5E2B6BBBEC004FA17A /* VerticalStackView.swift */,
+				6A90CB602B6BBC35004FA17A /* UIImageViewDownload.swift */,
+				6A0E748E2B6CBF6300A8B9ED /* LayoutHelper.swift */,
+				6AF4A56F2B72373C00B9F4DE /* CustomButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6AB9F3B92B6A66B70082A3BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +220,6 @@
 			files = (
 				6AB4387B2B68E1D100B188EB /* LaunchScreen.storyboard in Resources */,
 				6AB438782B68E1D100B188EB /* Assets.xcassets in Resources */,
-				6AB438762B68E1CF00B188EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB438732B68E1CF00B188EB /* ViewController.swift in Sources */,
+				6A9501142B6F537200000CC2 /* MainDataAboutHotel.swift in Sources */,
+				6AB438732B68E1CF00B188EB /* HotelViewController.swift in Sources */,
+				6A90CB612B6BBC35004FA17A /* UIImageViewDownload.swift in Sources */,
+				6A0E74952B6CF7F700A8B9ED /* MainInfoObjects.swift in Sources */,
 				6AB4386F2B68E1CF00B188EB /* AppDelegate.swift in Sources */,
 				6AB438712B68E1CF00B188EB /* SceneDelegate.swift in Sources */,
+				6A95011A2B6FBF4A00000CC2 /* DetailedDataAboutHotel.swift in Sources */,
+				6AF4A5702B72373C00B9F4DE /* CustomButton.swift in Sources */,
+				6A9501182B6F962200000CC2 /* ScrollViewController.swift in Sources */,
+				6A90CB5F2B6BBBEC004FA17A /* VerticalStackView.swift in Sources */,
+				6A0E748F2B6CBF6300A8B9ED /* LayoutHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6AB438742B68E1CF00B188EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AB438752B68E1CF00B188EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6AB438792B68E1D100B188EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +381,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Q4SAV9L28;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TravelBookingApp/Info.plist;
+				INFOPLIST_FILE = "TravelBookingApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +409,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Q4SAV9L28;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TravelBookingApp/Info.plist;
+				INFOPLIST_FILE = "TravelBookingApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
