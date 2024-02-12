@@ -8,13 +8,26 @@
 import UIKit
 
 class ScrollViewController: UICollectionViewCell {
-    
     let horizontalScrollView = UIScrollView()
     let pageControl = UIPageControl()
-    let pictures = ["Club_Privé_by_Belek_Club_House", "interiorHotel", "Club_Privé_by_Belek_Club_House"]
+    
+    private let mainDataViewModel = MainDataViewModel()
+    var pictures = [String]()
 
+    private func bindViewModel() {
+        mainDataViewModel.dataSource.bind { [weak self] _ in
+            self?.pictures = self?.mainDataViewModel.dataSource.value?.imageUrls ?? []
+            print(self?.mainDataViewModel.dataSource.value?.imageUrls)
+#warning("НЕ приходят данные")
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        mainDataViewModel.getHotel()
+        bindViewModel()
+        
         self.contentView.addSubview(horizontalScrollView)
         horizontalScrollView.contentMode = .scaleAspectFit
         horizontalScrollView.backgroundColor = .blue
@@ -29,27 +42,38 @@ class ScrollViewController: UICollectionViewCell {
             horizontalScrollView.heightAnchor.constraint(equalToConstant: 280)
         ])
 
-        horizontalScrollView.backgroundColor = .systemGray
+        horizontalScrollView.backgroundColor = .white
         horizontalScrollView.contentSize = CGSize(width: Int(UIScreen.main.bounds.width) * pictures.count, height: 280)
         horizontalScrollView.layer.cornerRadius = 15
         horizontalScrollView.isPagingEnabled = true
 
-        addImage(title: pictures[0], position: 0)
-        addImage(title: pictures[1], position: 1)
-        addImage(title: pictures[2], position: 2)
+//        addImage(title: pictures[0], position: 0)
+//        addImage(title: pictures[1], position: 1)
+//        addImage(title: pictures[2], position: 2)
+        addImage(arrayImages: pictures)
 
         configurePageControl()
         horizontalScrollView.delegate = self
 
-     func addImage(title: String, position: CGFloat) {
-         let imageView = UIImageView()
-         imageView.image = UIImage(named: title)
+     func addImage(arrayImages: [String]) {
 
-         let screenWidth = UIScreen.main.bounds.width
-         imageView.frame = CGRect(x: screenWidth * position, y: 0, width: screenWidth, height: 280)
-         horizontalScrollView.addSubview(imageView)
-         self.contentView.addSubview(horizontalScrollView)
-         self.clipsToBounds = true
+         
+//         arrayImages.map { image in
+//             let imageView = UIImageView()
+//             imageView.image = UIImage(named: image)
+//             imageView.frame = CGRect(x: screenWidth * CGFloat(position), y: 0, width: screenWidth, height: 280)
+//             horizontalScrollView.addSubview(imageView)
+//         }
+         for arrayImage in arrayImages {
+             let screenWidth = UIScreen.main.bounds.width
+             let position = arrayImages.count - 1
+             let imageView = UIImageView()
+             imageView.image = UIImage(named: arrayImage)
+             imageView.frame = CGRect(x: screenWidth * CGFloat(position), y: 0, width: screenWidth, height: 280)
+             horizontalScrollView.addSubview(imageView)
+             self.clipsToBounds = true
+             self.contentView.addSubview(horizontalScrollView)
+         }
      }
 
      func configurePageControl() {

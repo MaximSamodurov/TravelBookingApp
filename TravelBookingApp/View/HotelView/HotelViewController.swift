@@ -11,7 +11,6 @@ class HotelViewController: UIViewController {
     
     var collectionView: UICollectionView!
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,7 +43,7 @@ class HotelViewController: UIViewController {
     func setupFlowLayout() -> UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-//        layout.sectionInset = .init(top: 0, left: 0, bottom: 0, right: 0)
+        layout.sectionInset = .init(top: 0, left: 0, bottom: 20, right: 0)
         return layout
     }
     
@@ -64,8 +63,6 @@ extension HotelViewController: UICollectionViewDataSource {
           fatalError("Wrong cell type for section 0. Expected CellTypeOne")
         }
 
-        // configure your CellTypeOne
-
         return cellOne
       } else if indexPath.section == 1 {
         let dequeuedCell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(MainDataAboutHotel.self)", for: indexPath)
@@ -74,8 +71,6 @@ extension HotelViewController: UICollectionViewDataSource {
           fatalError("Wrong cell type for section 0. Expected CellTypeTwo")
         }
 
-        // configure your CellTypeTwo
-
         return cellTwo
       } else if indexPath.section == 2 {
           let dequeuedCell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(DetailedDataAboutHotel.self)", for: indexPath)
@@ -83,9 +78,7 @@ extension HotelViewController: UICollectionViewDataSource {
           guard let cellThree = dequeuedCell as? DetailedDataAboutHotel else {
               fatalError("Wrong cell type for section 0. Expected CellTypeTwo")
           }
-          
-          // configure your CellTypeTwo
-          
+                    
           return cellThree
       }
         return UICollectionViewCell()
